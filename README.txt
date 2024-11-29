@@ -5,7 +5,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 "This is a personal web page based on Dimension by HTML5 UP—a professional, fully responsive one-pager featuring modal 'pages' and stunning transition effects."
 
-Adapted by @pfiterman | pfiterman@gmail.com
+Adapted by @pfiterman
 
 Credits:
 
