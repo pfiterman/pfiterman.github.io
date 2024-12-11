@@ -8,9 +8,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 Adapted by @pfiterman
 
 Credits:
-  Image:
-		Unsplash (unsplash.com)
-  Icons:
-		Font Awesome (fontawesome.io)
-  Other:
-		jQuery (jquery.com)
+  Image: Unsplash (unsplash.com)
+  Icons: Font Awesome (fontawesome.io)
+  Other: jQuery (jquery.com)
