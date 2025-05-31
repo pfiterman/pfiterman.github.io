@@ -317,3 +317,33 @@ const resume = {
     },
   ],
 };
+
+const settings = {
+  profile_picture: `<img src="images/profile-pic-gray.png" alt="Profile Picture" />`,
+  icons: [
+    `<a
+      href="https://www.linkedin.com/in/pfiterman/"
+      target="_blank"
+      class="icon brands fa-linkedin"
+      title="LinkedIn"
+    >
+      <span class="label">LinkedIn</span>
+    </a>`,
+    `<a
+      href="https://github.com/pfiterman"
+      target="_blank"
+      class="icon brands fa-github"
+      title="GitHub"
+    >
+      <span class="label">GitHub</span>
+    </a>`,
+    `<a
+      href="https://pfiterman-portfolio.netlify.app/"
+      target="_blank"
+      class="icon brands fa-product-hunt"
+      title="Portfolio"
+    >
+      <span class="label">Portfolio</span>
+    </a>`,
+  ],
+};

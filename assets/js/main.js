@@ -11,7 +11,6 @@
     $header = $("#header"),
     $footer = $("#footer"),
     $main = $("#main"),
-    $main_templates = $(".template"),
     $main_articles = $main.children("article");
 
   // Breakpoints.
@@ -26,6 +25,37 @@
 
   // Play initial animations on page load.
   $window.on("load", function () {
+    //Rendering profile data
+    $profile = $("#profile");
+    $profile.empty();
+    const $clone = $(`#profile_template .profile_item`).clone(true);
+    console.log($profile.html());
+
+    const $applicant = $clone.find(".name");
+    $applicant.text(resume["applicant"].name);
+
+    const $skills = $clone.find(".skills");
+    let skills = resume["applicant"].jobTitle + " | ";
+    $skills.text(skills);
+
+    resume["skills"].frontEnd.forEach((fe) => {
+      skills += fe + " | ";
+    });
+    $skills.text(skills);
+
+    resume["skills"].backEnd.forEach((be) => {
+      skills += be + " | ";
+    });
+    $skills.text(skills.slice(0, skills.length - 3));
+
+    const $icons = $clone.find(".icons");
+    let icons = "";
+    settings["icons"].forEach((icon) => {
+      icons += `<li>${icon}</li>`;
+    });
+    $icons.html(icons);
+    $profile.append($clone);
+
     window.setTimeout(function () {
       $body.removeClass("is-preload");
     }, 100);
