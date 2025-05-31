@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pablo Fiterman | Resume</title>
+    <title>Resume | Pablo Fiterman</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Pablo Fiterman - Resume Web Page" />
+    <meta
+      name="description"
+      content="Explore Pablo Cerqueira Fiterman's professional resume. Full-Stack Developer with 10+ years of experience in web development, technical support, and scalable software solutions. Based in Toronto."
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
@@ -11,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link
       rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏻‍💻</text></svg>"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👔</text></svg>"
     />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
@@ -21,44 +24,15 @@
     <div id="wrapper">
       <!-- Header -->
       <header id="header">
+        <!-- Profile Picture -->
         <div class="logo">
           <img src="images/profile-pic-gray.png" alt="Profile Picture" />
         </div>
+        <!--Skills -->
         <div class="content">
-          <div class="inner">
-            <h1>Pablo Fiterman</h1>
-            <p>
-              Full Stack Developer | Software Engineering | React Js | Redux |
-              JavaScript | TypeScript | Node JS | SQL Server | PostgreSQL | Git
-            </p>
-            <ul class="icons">
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/pfiterman/"
-                  target="_blank"
-                  class="icon brands fa-linkedin"
-                  ><span class="label">LinkedIn</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://github.com/pfiterman"
-                  target="_blank"
-                  class="icon brands fa-github"
-                  ><span class="label">GitHub</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://pfiterman-portfolio.netlify.app/"
-                  target="_blank"
-                  class="icon brands fa-black-tie"
-                  ><span class="label">Portfolio</span></a
-                >
-              </li>
-            </ul>
-          </div>
+          <div id="profile"></div>
         </div>
+        <!-- Menu -->
         <nav>
           <ul>
             <li><a href="#education">Education</a></li>
@@ -115,7 +89,7 @@
       <!-- Footer -->
       <footer id="footer">
         <p class="copyright">
-          &copy; Pablo Fiterman. Adapted from:
+          &copy; Pablo Fiterman.
           <a href="https://html5up.net/dimension">Dimension</a>.
         </p>
       </footer>
@@ -125,6 +99,17 @@
     <div id="bg"></div>
 
     <!-- Templates -->
+    <!--Profile-->
+    <div id="profile_template" class="template" style="display: none">
+      <div class="profile_item">
+        <div class="inner">
+          <h1 class="name"></h1>
+          <p class="skills"></p>
+          <ul class="icons"></ul>
+        </div>
+      </div>
+    </div>
+
     <!--Education -->
     <div id="education_template" class="template" style="display: none">
       <div class="education_item">
