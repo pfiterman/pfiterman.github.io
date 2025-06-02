@@ -102,7 +102,7 @@ const resume = {
     },
     {
       id: 4,
-      degree: " Bachelor in DataProcessTechnology",
+      degree: " Bachelor in DataProcess Technology",
       institution: "Tiradentes University",
       institution_url: "https://www.unit.br/",
       city: "Aracaju",
@@ -123,7 +123,7 @@ const resume = {
       province: "Ontario",
       country: "Canada",
       accomplishments: [
-        "Built andoptimizedscalable training code, improving AI model precision by 12% increasing efficiency.",
+        "Built and optimized scalable training code, improving AI model precision by 12% increasing efficiency.",
         "Diagnosed API and input failures affecting model outputs, reducing response errors and improving reliability.",
         "Enhanced contextual reasoning in ML algorithms through iterative tuning, improving response relevance.",
         "Collaborated using Python to assess andc orrect model outputs,improving result accuracy and QA.",
