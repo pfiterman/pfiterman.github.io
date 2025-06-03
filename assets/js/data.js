@@ -255,11 +255,13 @@ const resume = {
   projects: [
     {
       id: 1,
-      name: "wdjAppCharenji",
+      name: "Charenji",
+      app_name: "wdjAppCharenji",
       techstack: "Python, Django, JavaScript, Docker, PostgreSQL",
       description:
         "Personalized challenge tracker to create goals, track progress, and view achievements. Built with Django and Vanilla JS.",
       github: "https://github.com/pfiterman/wdjAppCharenji",
+      public: false,
       url: "https://wdjappcharenji.onrender.com/",
       accomplishment:
         "Built a Dockerized Django app with PostgreSQL, featuring a dashboard and timeline to help users track challenges.",
@@ -267,12 +269,14 @@ const resume = {
     },
     {
       id: 2,
-      name: "webAppWildOasisHotelWebsite",
+      name: "Wild Oasis Hotel - Website",
+      app_name: "webAppWildOasisHotelWebsite",
       techstack:
         "React.js, Vite, Next.js, @tanstack/react-query ,Supabase, Tailwind CSS",
       description:
         "A modern hotel website built with Next.js and React, making it easy to book luxurious cabins with a smooth and user-friendly experience.",
       github: "https://github.com/pfiterman/webAppWildOasisHotelWebsite",
+      public: true,
       url: "https://the-wild-oasis-hotel-website.vercel.app/",
       accomplishment:
         "Developed a full-stack hotel booking app with React and Supabase, improving reservation speed and UX.",
@@ -280,12 +284,14 @@ const resume = {
     },
     {
       id: 3,
-      name: "webAppWildOasisHotel",
+      name: "Wild Oasis Hotel - Management",
+      app_name: "webAppWildOasisHotel",
       techstack:
         "React.js, Vite, Supabase, @tanstack/react-query, React Hook Form, React Router DOM, Styled Components",
       description:
         "A user-friendly web application for managing hotel bookings including real-time availability, room details, secure booking processes, and an elegant design.",
       github: "https://github.com/pfiterman/webAppWildOasisHotel",
+      public: true,
       url: "https://wild-oasis-hotel-wp.netlify.app/login",
       accomplishment:
         "Built an internal dashboard with React and Supabase simplifying booking management and enhance data views.",
@@ -293,11 +299,13 @@ const resume = {
     },
     {
       id: 4,
-      name: "webAppWorldWise",
+      name: "World Wise",
+      app_name: "webAppWorldWise",
       techstack: "React, Vite, SPA, Leaflet, React Leaflet, JSON Server",
       description:
         "A dynamic web application that enables users to explore cities around the globe. With an intuitive map interface, users can track and save their favorite city entries, discover new destinations, and curate personalized travel lists.",
       github: "https://github.com/pfiterman/webAppWorldWise",
+      public: true,
       url: "https://world-wise-wp.netlify.app/",
       accomplishment:
         "Built a dynamic React SPA with Leaflet for interactive city exploration boosting user engagement.",
@@ -305,11 +313,13 @@ const resume = {
     },
     {
       id: 5,
-      name: "wpfAppTranscribeAudio",
+      name: "Transcribe Audio",
+      app_name: "wpfAppTranscribeAudio",
       techstack: "C#, Speech SDK, Microsoft Azure Speech Recognition services",
       description:
         "A WPF C# application that transcribes .mp3 audio files into text using Microsoft Azure Speech Recognition Services.",
       github: "https://github.com/pfiterman/wpfAppTranscribeAudio",
+      public: true,
       url: "",
       accomplishment:
         "Developed a WPF C# app using Azure Speech SDK to transcribe audio, optimizing transcription for users.",
