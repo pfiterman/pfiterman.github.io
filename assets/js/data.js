@@ -338,7 +338,7 @@ const settings = {
       <span class="label">GitHub</span>
     </a>`,
     `<a
-      href="https://pfiterman-portfolio.netlify.app/"
+      href="https://pfiterman.framer.website/"
       target="_blank"
       class="icon brands fa-product-hunt"
       title="Portfolio"
