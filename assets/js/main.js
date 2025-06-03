@@ -156,15 +156,15 @@
       resume[id].forEach((item) => {
         const $clone = $(`#${id}_template .${id}_item`).clone(true);
 
-        $clone
-          .find(".project")
-          .html(
-            '<a href="' +
-              item.github +
-              '" target="_blank">' +
-              item.name +
-              "</a>"
-          );
+        const project_url = item.url
+          ? `<a href='${item.url}' target='_blank'> ${item.name}</a>`
+          : `${item.name}`;
+        $clone.find(".project").html(project_url);
+
+        const github = item.public
+          ? `<a href='${item.github}'> ${item.app_name} </a>`
+          : ` ${item.app_name} (Private)`;
+        $clone.find(".github").html(github);
 
         $clone.find(".techstack").text(item.techstack);
         $clone.find(".about").text(item.description);
