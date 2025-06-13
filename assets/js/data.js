@@ -126,9 +126,9 @@ const resume = {
       institution_url: "https://www.harvard.edu/",
       certification_url:
         "https://certificates.cs50.io/abb94093-c610-43af-9705-056f183a436d.pdf",
-      city: "Toronto",
-      province: "Ontario",
-      country: "Canada",
+      city: "Cambridge",
+      province: "Massachusetts",
+      country: "United States",
       duration: "April 2025 - Jun 2025",
     },
   ],
