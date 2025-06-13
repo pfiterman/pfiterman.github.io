@@ -100,10 +100,19 @@
     $content.empty();
 
     if (id === "education") {
-      resume[id].forEach((item) => {
+      const education = resume[id].sort((a, b) => b.id - a.id);
+      education.forEach((item) => {
         const $clone = $(`#${id}_template .${id}_item`).clone(true);
 
-        $clone.find(".degree").text(item.degree);
+        $clone
+          .find(".degree")
+          .html(
+            '<a href="' +
+              item.certification_url +
+              '" target="_blank">' +
+              item.degree +
+              "</a>"
+          );
         $clone
           .find(".name")
           .html(
@@ -121,7 +130,8 @@
         $content.append($clone);
       });
     } else if (id === "experience") {
-      resume[id].forEach((item) => {
+      const experiences = resume[id].sort((a, b) => b.id - a.id);
+      experiences.forEach((item) => {
         const $clone = $(`#${id}_template .${id}_item`).clone(true);
 
         $clone
@@ -153,7 +163,8 @@
       });
       $content.append($clone);
     } else if (id === "projects") {
-      resume[id].forEach((item) => {
+      const projects = resume[id].sort((a, b) => b.id - a.id);
+      projects.forEach((item) => {
         const $clone = $(`#${id}_template .${id}_item`).clone(true);
 
         const project_url = item.url
