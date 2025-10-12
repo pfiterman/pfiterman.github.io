@@ -165,6 +165,18 @@ const resume = {
       country: "Canada",
       duration: "Jun 2025 - Jul 2025",
     },
+    {
+      id: 9,
+      degree: "Certificate of OSLT, Communicating in the Technology Sector",
+      institution: "Seneca Polytechnic",
+      institution_url: "https://www.senecapolytechnic.ca/",
+      certification_url:
+        "https://www.dropbox.com/scl/fi/g7kgv2wr2ygtlaf4zcv9z/Seneca-Polytechnic-Communicating-in-the-Technology-Sector.pdf?rlkey=itjmtdto5z8l22057pyqlqq58&dl=0",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Jul 2025 - Sept 2025",
+    },
   ],
   experience: [
     {
