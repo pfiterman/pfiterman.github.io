@@ -376,7 +376,7 @@ const resume = {
         "A user-friendly web application for managing hotel bookings including real-time availability, room details, secure booking processes, and an elegant design.",
       github: "https://github.com/pfiterman/webAppWildOasisHotel",
       public: true,
-      url: "https://wild-oasis-hotel-wp.netlify.app/login",
+      url: "https://wild-oasis-hotel-wp.netlify.app/",
       accomplishment:
         "Built an internal dashboard with React and Supabase simplifying booking management and enhance data views.",
       duration: "March 2024 - Dec 2024",
