@@ -10,12 +10,12 @@ const resume = {
   },
   aboutme: {
     description:
-      "I'm a Full-Stack Developer with 10+ of experience in Software development. I also bring experience as Database Administrator, AI Data Annotator and Technical Support Specialist with a combined 5+ years of experience in Computer-Aided Dispatch platforms and ERP systems. Some achievements include:",
+      "Full-Stack Developer with 10+ years of experience delivering modern, high-performance applications, with additional expertise in Computer-Aided Dispatch platforms and ERP systems. Key achievements:",
     achievements: [
-      "Designed and deployed modern web apps using React.js and Next.js with real-time data, geolocation maps, and API integration as a solo developer, significantly enhancing performance, usability, and functionality",
-      "Improved ERP supply chain efficiency at 3Tecnos by developing low-stock alert features, significantly reducing stockouts and enhancing procurement workflow",
-      "Developed an ERP front-end portal for a Federal Police agency in Brazil, streamlining HR, logistics, on-call scheduling, and report generation — reducing manual processes by 86% and improving operational efficiency",
-      "Maintained and supported CAD software at Hexagon for Brazil’s public safety agencies, improving system uptime by 35% and ensuring reliable performance during critical operations and large-scale public events",
+      "Built and deployed full modern web applications using React.js and Next.js with real-time power BI data analytics, geolocation mapping, and API integrations - delivering major improvements in performance, usability, and functionality.",
+      "Enhanced ERP supply chain efficiency at 3Tecnos by developing low-stock alert features, reducing stockouts and strengthening procurement workflows.",
+      "Developed an ERP front-end portal for a Federal Police agency in Brazil, streamlining HR, logistics, scheduling, and reporting - reducing manual processes by 86%.",
+      "Supported and maintained CAD software at Hexagon for public safety agencies, increasing system uptime by 35% and ensuring stable performance during critical operations and large-scale events.",
     ],
   },
   skills: {
@@ -302,7 +302,7 @@ const resume = {
     },
     {
       id: 8,
-      jobTitle: "AI Machine Learning Data Annotator",
+      jobTitle: "AI Data Quality Analyst",
       jobTitleComment: "(OnCall/Remote)",
       duration: "September 2024 — February 2025",
       company: "Outlier",
