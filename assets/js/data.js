@@ -302,7 +302,7 @@ const resume = {
     },
     {
       id: 8,
-      jobTitle: "AI Machine Learning Data Annotator",
+      jobTitle: "AI Data Quality Analyst",
       jobTitleComment: "(OnCall/Remote)",
       duration: "September 2024 — February 2025",
       company: "Outlier",
