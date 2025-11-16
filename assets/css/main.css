@@ -1253,7 +1253,7 @@ button {
   background-image: linear-gradient(
       to top,
       rgba(11, 69, 185, 0.5),
-      rgba(11, 69, 185, 0.5)
+      rgba(23, 55, 119, 0.5)
     ),
     url("../../images/overlay.png");
   background-size: auto, 256px 256px;
@@ -1274,7 +1274,7 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("../../images/bg4.jpg");
+  background-image: url("../../images/bg2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
