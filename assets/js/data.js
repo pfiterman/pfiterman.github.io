@@ -410,6 +410,21 @@ const resume = {
         "Built a Dockerized Django app with PostgreSQL, featuring a dashboard and timeline to help users track challenges.",
       duration: "May 2025",
     },
+    {
+      id: 6,
+      name: "ERMS",
+      app_name: "Expense-And-Revenue-Management",
+      techstack:
+        "React (TypeScript), Tailwind.css, Node.js/Express, Axios API, MariaDB (via Prisma ORM), Docker",
+      description:
+        "A web application designed to replace manual Excel and email-based financial tracking with an automated solution for managing both expenses and revenues across departments.",
+      github: "https://github.com/4-change-hub/Expense-And-Revenue-Management",
+      public: false,
+      url: "https://carlingtonrms.4changehub.org/",
+      accomplishment:
+        "Developed and improved a role-based web application using React (TypeScript), Node.js (Express), and MySQL with Prisma ORM, replacing Excel/email workflows.",
+      duration: "May 2025 - Ongoing",
+    },
   ],
 };
 
