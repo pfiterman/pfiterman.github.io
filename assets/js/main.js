@@ -103,25 +103,33 @@
       const education = resume[id].sort((a, b) => b.id - a.id);
       education.forEach((item) => {
         const $clone = $(`#${id}_template .${id}_item`).clone(true);
+        const $degree = $clone.find(".degree");
+        const $institution = $clone.find(".name");
 
-        $clone
-          .find(".degree")
-          .html(
+        if (item.certification_url) {
+          $degree.html(
             '<a href="' +
               item.certification_url +
               '" target="_blank">' +
               item.degree +
               "</a>"
           );
-        $clone
-          .find(".name")
-          .html(
+        } else {
+          $degree.text(item.degree);
+        }
+
+        if (item.institution_url) {
+          $institution.html(
             '<a href="' +
               item.institution_url +
               '" target="_blank">' +
               item.institution +
               "</a>"
           );
+        } else {
+          $institution.text(item.institution);
+        }
+
         $clone.find(".city").text(item.city);
         $clone.find(".province").text(item.province);
         $clone.find(".country").text(item.country);
