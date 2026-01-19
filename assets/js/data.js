@@ -38,6 +38,7 @@ const resume = {
       "Firebase",
       "MongoDB",
       "SQL",
+      "Prisma ORM",
       "MySQL",
       "PostgreSQL",
       "SQL Server",
