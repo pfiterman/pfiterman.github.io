@@ -236,13 +236,21 @@ textarea {
 }
 
 a {
-  -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+  -moz-transition:
+    color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out,
     border-bottom-color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+  -webkit-transition:
+    color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out,
     border-bottom-color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+  -ms-transition:
+    color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out,
     border-bottom-color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+  transition:
+    color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out,
     border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
   text-decoration: none;
@@ -500,13 +508,21 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  -moz-transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
-  -webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  -webkit-transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
-  -ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  -ms-transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
-  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 4px;
@@ -621,13 +637,21 @@ input[type="radio"] + label:before {
 
 input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
-  -moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  -moz-transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
-  -webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  -webkit-transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
-  -ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  -ms-transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
-  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  transition:
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
   border-radius: 4px;
   border: solid 1px #ffffff;
@@ -1116,10 +1140,18 @@ button,
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -moz-transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  -webkit-transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  -ms-transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 4px;
   border: 0;
@@ -1250,13 +1282,12 @@ button {
   -webkit-transition-delay: 0.75s;
   -ms-transition-delay: 0.75s;
   transition-delay: 0.75s;
-  background-image: linear-gradient(
-      to top,
-      rgba(11, 69, 185, 0.5),
-      rgba(23, 55, 119, 0.5)
-    ),
+  background-image:
+    linear-gradient(to top, rgba(11, 69, 185, 0.5), rgba(23, 55, 119, 0.5)),
     url("../../images/overlay.png");
-  background-size: auto, 256px 256px;
+  background-size:
+    auto,
+    256px 256px;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
   z-index: 2;
@@ -1267,13 +1298,18 @@ button {
   -webkit-transform: scale(1.125);
   -ms-transform: scale(1.125);
   transform: scale(1.125);
-  -moz-transition: -moz-transform 0.325s ease-in-out,
+  -moz-transition:
+    -moz-transform 0.325s ease-in-out,
     -moz-filter 0.325s ease-in-out;
-  -webkit-transition: -webkit-transform 0.325s ease-in-out,
+  -webkit-transition:
+    -webkit-transform 0.325s ease-in-out,
     -webkit-filter 0.325s ease-in-out;
-  -ms-transition: -ms-transform 0.325s ease-in-out,
+  -ms-transition:
+    -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
-  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+  transition:
+    transform 0.325s ease-in-out,
+    filter 0.325s ease-in-out;
   background-image: url("../../images/bg6.jpg");
   background-position: center;
   background-size: cover;
@@ -1360,13 +1396,21 @@ body.is-preload #bg:before {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  -moz-transition: -moz-transform 0.325s ease-in-out,
-    -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  -webkit-transition: -webkit-transform 0.325s ease-in-out,
-    -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  -ms-transition: -ms-transform 0.325s ease-in-out,
-    -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out,
+  -moz-transition:
+    -moz-transform 0.325s ease-in-out,
+    -moz-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  -webkit-transition:
+    -webkit-transform 0.325s ease-in-out,
+    -webkit-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  -ms-transition:
+    -ms-transform 0.325s ease-in-out,
+    -ms-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  transition:
+    transform 0.325s ease-in-out,
+    filter 0.325s ease-in-out,
     opacity 0.325s ease-in-out;
   background-image: -moz-radial-gradient(
     rgba(0, 0, 0, 0.25) 25%,
@@ -1437,13 +1481,21 @@ body.is-preload #bg:before {
 }
 
 #header .content .inner {
-  -moz-transition: max-height 0.75s ease, padding 0.75s ease,
+  -moz-transition:
+    max-height 0.75s ease,
+    padding 0.75s ease,
     opacity 0.325s ease-in-out;
-  -webkit-transition: max-height 0.75s ease, padding 0.75s ease,
+  -webkit-transition:
+    max-height 0.75s ease,
+    padding 0.75s ease,
     opacity 0.325s ease-in-out;
-  -ms-transition: max-height 0.75s ease, padding 0.75s ease,
+  -ms-transition:
+    max-height 0.75s ease,
+    padding 0.75s ease,
     opacity 0.325s ease-in-out;
-  transition: max-height 0.75s ease, padding 0.75s ease,
+  transition:
+    max-height 0.75s ease,
+    padding 0.75s ease,
     opacity 0.325s ease-in-out;
   -moz-transition-delay: 0.25s;
   -webkit-transition-delay: 0.25s;
@@ -1488,7 +1540,7 @@ body.is-preload #bg:before {
 
 #header nav ul li a {
   display: block;
-  min-width: 7.5rem;
+  min-width: 10rem;
   height: 2.75rem;
   line-height: 2.75rem;
   padding: 0 1.25rem 0 1.45rem;
@@ -1662,11 +1714,18 @@ body.is-preload #header .content .inner {
   -webkit-transform: translateY(0.25rem);
   -ms-transform: translateY(0.25rem);
   transform: translateY(0.25rem);
-  -moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
-  -webkit-transition: opacity 0.325s ease-in-out,
+  -moz-transition:
+    opacity 0.325s ease-in-out,
+    -moz-transform 0.325s ease-in-out;
+  -webkit-transition:
+    opacity 0.325s ease-in-out,
     -webkit-transform 0.325s ease-in-out;
-  -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
-  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+  -ms-transition:
+    opacity 0.325s ease-in-out,
+    -ms-transform 0.325s ease-in-out;
+  transition:
+    opacity 0.325s ease-in-out,
+    transform 0.325s ease-in-out;
   padding: 4.5rem 2.5rem 1.5rem 2.5rem;
   position: relative;
   width: 40rem;
@@ -1747,13 +1806,21 @@ body.is-preload #header .content .inner {
 /* Footer */
 
 #footer {
-  -moz-transition: -moz-transform 0.325s ease-in-out,
-    -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  -webkit-transition: -webkit-transform 0.325s ease-in-out,
-    -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  -ms-transition: -ms-transform 0.325s ease-in-out,
-    -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out,
+  -moz-transition:
+    -moz-transform 0.325s ease-in-out,
+    -moz-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  -webkit-transition:
+    -webkit-transform 0.325s ease-in-out,
+    -webkit-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  -ms-transition:
+    -ms-transform 0.325s ease-in-out,
+    -ms-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  transition:
+    transform 0.325s ease-in-out,
+    filter 0.325s ease-in-out,
     opacity 0.325s ease-in-out;
   width: 100%;
   max-width: 100%;
