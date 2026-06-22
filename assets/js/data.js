@@ -186,7 +186,7 @@ const resume = {
       institution_url:
         "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
       certification_url:
-        "https://www.coursera.org/api/certificate.v1/pdf/GGFL9XESAJAC",
+        "https://www.coursera.org/account/accomplishments/certificate/GGFL9XESAJAC",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
@@ -199,7 +199,7 @@ const resume = {
       institution_url:
         "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
       certification_url:
-        "https://www.coursera.org/api/certificate.v1/pdf/FQPHVXOHABUL",
+        "https://www.coursera.org/account/accomplishments/certificate/FQPHVXOHABUL",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
@@ -212,7 +212,7 @@ const resume = {
       institution_url:
         "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
       certification_url:
-        "https://www.coursera.org/api/certificate.v1/pdf/4NMB4TJFO6SQ",
+        "https://www.coursera.org/account/accomplishments/certificate/4NMB4TJFO6SQ",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
@@ -225,7 +225,7 @@ const resume = {
       institution_url:
         "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
       certification_url:
-        "https://www.coursera.org/api/certificate.v1/pdf/4IU1E18FPHEW",
+        "https://www.coursera.org/account/accomplishments/certificate/4IU1E18FPHEW",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
@@ -238,7 +238,7 @@ const resume = {
       institution_url:
         "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
       certification_url:
-        "https://www.coursera.org/api/certificate.v1/pdf/FS2PEZY40F1X",
+        "https://www.coursera.org/account/accomplishments/certificate/FS2PEZY40F1X",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
@@ -251,7 +251,7 @@ const resume = {
       institution_url:
         "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
       certification_url:
-        "https://www.coursera.org/api/certificate.v1/pdf/IM7PF1NZ1FXR",
+        "https://www.coursera.org/account/accomplishments/certificate/IM7PF1NZ1FXR",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
@@ -264,7 +264,7 @@ const resume = {
       institution_url:
         "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
       certification_url:
-        "https://www.coursera.org/api/certificate.v1/pdf/Q97K4MWAM7EP",
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/Q97K4MWAM7EP",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
