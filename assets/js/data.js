@@ -33,6 +33,7 @@ const resume = {
       "Express",
       "Python",
       "Django",
+      "REST APIs",
       "PHP",
       "Supabase",
       "Firebase",
@@ -175,6 +176,99 @@ const resume = {
       province: "Ontario",
       country: "Canada",
       duration: "Jul 2025 - Sept 2025",
+    },
+  ],
+  certification: [
+    {
+      id: 1,
+      degree: "Advanced React",
+      institution: "Meta",
+      institution_url:
+        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
+      certification_url:
+        "https://www.coursera.org/account/accomplishments/certificate/GGFL9XESAJAC",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Oct 2025",
+    },
+    {
+      id: 2,
+      degree: "Programming in Python",
+      institution: "Meta",
+      institution_url:
+        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
+      certification_url:
+        "https://www.coursera.org/account/accomplishments/certificate/FQPHVXOHABUL",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Dec 2025",
+    },
+    {
+      id: 3,
+      degree: "Programming with JavaScript",
+      institution: "Meta",
+      institution_url:
+        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
+      certification_url:
+        "https://www.coursera.org/account/accomplishments/certificate/4NMB4TJFO6SQ",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Jan 2026",
+    },
+    {
+      id: 4,
+      degree: "Version Control",
+      institution: "Meta",
+      institution_url:
+        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
+      certification_url:
+        "https://www.coursera.org/account/accomplishments/certificate/4IU1E18FPHEW",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Jan 2026",
+    },
+    {
+      id: 5,
+      degree: "Django Web Framework",
+      institution: "Meta",
+      institution_url:
+        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
+      certification_url:
+        "https://www.coursera.org/account/accomplishments/certificate/FS2PEZY40F1X",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "May 2026",
+    },
+    {
+      id: 6,
+      degree: "APIs",
+      institution: "Meta",
+      institution_url:
+        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
+      certification_url:
+        "https://www.coursera.org/account/accomplishments/certificate/IM7PF1NZ1FXR",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Jun 2026",
+    },
+    {
+      id: 7,
+      degree: "Full Stack Developer Specialization",
+      institution: "Meta",
+      institution_url:
+        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
+      certification_url:
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/Q97K4MWAM7EP",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Jun 2026",
     },
   ],
   experience: [

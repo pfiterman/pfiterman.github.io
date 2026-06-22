@@ -29,7 +29,6 @@
     $profile = $("#profile");
     $profile.empty();
     const $clone = $(`#profile_template .profile_item`).clone(true);
-    console.log($profile.html());
 
     const $applicant = $clone.find(".name");
     $applicant.text(resume["applicant"].name);
@@ -112,7 +111,7 @@
               item.certification_url +
               '" target="_blank">' +
               item.degree +
-              "</a>"
+              "</a>",
           );
         } else {
           $degree.text(item.degree);
@@ -124,7 +123,45 @@
               item.institution_url +
               '" target="_blank">' +
               item.institution +
-              "</a>"
+              "</a>",
+          );
+        } else {
+          $institution.text(item.institution);
+        }
+
+        $clone.find(".city").text(item.city);
+        $clone.find(".province").text(item.province);
+        $clone.find(".country").text(item.country);
+        $clone.find(".duration").text(item.duration);
+
+        $content.append($clone);
+      });
+    } else if (id === "certification") {
+      const certification = resume[id].sort((a, b) => b.id - a.id);
+      certification.forEach((item) => {
+        const $clone = $(`#${id}_template .${id}_item`).clone(true);
+        const $degree = $clone.find(".degree");
+        const $institution = $clone.find(".name");
+
+        if (item.certification_url) {
+          $degree.html(
+            '<a href="' +
+              item.certification_url +
+              '" target="_blank">' +
+              item.degree +
+              "</a>",
+          );
+        } else {
+          $degree.text(item.degree);
+        }
+
+        if (item.institution_url) {
+          $institution.html(
+            '<a href="' +
+              item.institution_url +
+              '" target="_blank">' +
+              item.institution +
+              "</a>",
           );
         } else {
           $institution.text(item.institution);
@@ -149,7 +186,7 @@
               item.company_website +
               '" target="_blank">' +
               item.company +
-              "</a>"
+              "</a>",
           );
 
         $clone.find(".jobtitle").text(item.jobTitle);
@@ -232,7 +269,7 @@
         function () {
           $body.removeClass("is-switching");
         },
-        initial ? 1000 : 0
+        initial ? 1000 : 0,
       );
 
       return;
