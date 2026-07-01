@@ -42,6 +42,7 @@ const resume = {
       "Prisma ORM",
       "MySQL",
       "PostgreSQL",
+      "Microsoft Azure",
       "SQL Server",
     ],
     tools: [
@@ -265,6 +266,18 @@ const resume = {
         "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
       certification_url:
         "https://www.coursera.org/account/accomplishments/specialization/certificate/Q97K4MWAM7EP",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Jun 2026",
+    },
+    {
+      id: 8,
+      degree: "Microsoft Certified: Azure AI Fundamentals",
+      institution: "Microsoft",
+      institution_url: "https://azure.microsoft.com/en-ca",
+      certification_url:
+        "https://learn.microsoft.com/api/credentials/share/en-us/PabloCerqueiraFiterman-4850/D5D5FB679E2DE464?sharingId",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
