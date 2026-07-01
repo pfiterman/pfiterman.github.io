@@ -521,7 +521,7 @@ const resume = {
       name: "ERMS",
       app_name: "Expense-And-Revenue-Management",
       techstack:
-        "React (TypeScript), Tailwind.css, Node.js/Express, Axios API, MariaDB (via Prisma ORM), Docker",
+        "React + TypeScript, Tailwind.css, Node.js/Express, Axios API, MariaDB (via Prisma ORM), Docker",
       description:
         "A web application designed to replace manual Excel and email-based financial tracking with an automated solution for managing both expenses and revenues across departments.",
       github: "https://github.com/4-change-hub/Expense-And-Revenue-Management",
@@ -530,6 +530,21 @@ const resume = {
       accomplishment:
         "Developed and improved a role-based web application using React (TypeScript), Node.js (Express), and MySQL with Prisma ORM, replacing Excel/email workflows.",
       duration: "May 2025 - Ongoing",
+    },
+    {
+      id: 7,
+      name: "GuardHub",
+      app_name: "webAppGuardHub",
+      techstack:
+        "React + TypeScript, Node.js + Express, Vite, Tailwind CSS, Radix UI, Wouter, Axios, React Day Picker, React Leaflet, Firebase Firestore, Google OAuth 2.0, GCP ",
+      description:
+        "A web app for crossing guard operations, featuring PARiM schedule integration, pay cycle tracking, interactive maps, and shift management.",
+      github: "https://github.com/pfiterman/webAppGuardHub",
+      public: false,
+      url: "https://guardhubapp.com/",
+      accomplishment:
+        "Developed a full-stack workforce scheduling and earnings management application that automatically syncs shifts from external scheduling systems, visualizes assignments on an interactive map, detects scheduling conflicts, and tracks hours, pay cycles, and earnings in real time.",
+      duration: "May 2026 - Ongoing",
     },
   ],
 };
