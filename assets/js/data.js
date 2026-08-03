@@ -473,15 +473,15 @@ const resume = {
     },
     {
       id: 3,
-      name: "Wild Oasis Hotel - Management",
-      app_name: "webAppWildOasisHotel",
+      name: "Lodge Metrics",
+      app_name: "lodgemetrics",
       techstack:
         "React.js, Vite, Supabase, @tanstack/react-query, React Hook Form, React Router DOM, Styled Components",
       description:
         "A user-friendly web application for managing hotel bookings including real-time availability, room details, secure booking processes, and an elegant design.",
-      github: "https://github.com/pfiterman/webAppWildOasisHotel",
+      github: "https://github.com/pfiterman/lodgemetrics",
       public: true,
-      url: "https://wild-oasis-hotel-wp.netlify.app/",
+      url: "https://lodgemetrics.netlify.app/",
       accomplishment:
         "Built an internal dashboard with React and Supabase simplifying booking management and enhance data views.",
       duration: "March 2024 - Dec 2024",
