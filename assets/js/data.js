@@ -488,15 +488,15 @@ const resume = {
     },
     {
       id: 4,
-      name: "Wild Oasis Hotel - Website",
-      app_name: "webAppWildOasisHotelWebsite",
+      name: "North Wood Hotel - Website",
+      app_name: "northwood-website",
       techstack:
         "React.js, Vite, Next.js, @tanstack/react-query ,Supabase, Tailwind CSS",
       description:
         "A modern hotel website built with Next.js and React, making it easy to book luxurious cabins with a smooth and user-friendly experience.",
-      github: "https://github.com/pfiterman/webAppWildOasisHotelWebsite",
+      github: "https://github.com/pfiterman/northwood-website",
       public: true,
-      url: "https://the-wild-oasis-hotel-website.vercel.app/",
+      url: "https://north-wood-hotel-website.vercel.app/",
       accomplishment:
         "Developed a full-stack hotel booking app with React and Supabase, improving reservation speed and UX.",
       duration: "February 2025 - Mar 2025",
