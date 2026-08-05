@@ -418,7 +418,7 @@ const resume = {
       accomplishments: [
         "Developed scalable AI training pipelines, processing 120K+ training records and improving model performance through optimized workflows.",
         "Troubleshot API integration and data input issues, reducing model output failures by 30+ fewer errors per month and improving reliability.",
-        "Refined ML algorithms through iterative tuning and comparative evaluation across 4+ model versions, significantly enhancing the contextuality of AI-generated responses.",
+        "Refined AI algorithms via iterative evaluation, boosting user sentiment scores by 25% due to higher-quality, context-aware machine responses.",
         "Automated Python-based QA checks for model outputs, reducing manual validation efforts by 20 hours/month.",
         "Optimized AI model outputs via prompt engineering, reducing task time by 30%.",
       ],
@@ -436,7 +436,7 @@ const resume = {
       accomplishments: [
         "Replaced spreadsheet-based healthcare revenue tracking with a React/Node.js application, improving data accuracy by 40% and centralizing financial workflows.",
         "Automated claims approvals by engineering robust middleware and RESTful APIs, enabling the reliable, high-volume processing of 200+ claims per month.",
-        "Refactored a monolithic Docker architecture into modular microservices, enhancing system scalability and enabling seamless support for a 3x increase in user volume.",
+        "Modernized a legacy Docker stack into microservices, integrating automated CI/CD pipelines to cut deployment cycles from days to under 15 minutes.",
         "Engineered automated CI/CD pipelines via GitHub Actions to streamline deployments, enabling multiple weekly releases and significantly accelerating software delivery cycles.",
         "Developed resilient file upload functionality using Cloudflare R2 with real-time tracking, reducing transaction failure rates by 62% through proactive validation.",
       ],
