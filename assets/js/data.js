@@ -399,10 +399,10 @@ const resume = {
       country: "Canada",
       accomplishments: [
         "Optimized the Next.js reservation workflow and UI design to streamline user interactions, successfully supporting 300+ monthly bookings with significantly faster confirmation.",
-        "Developed interactive data dashboards within the Next.js booking platform, streamlining information access and reducing report processing time by 8%.",
+        "Developed interactive data dashboards within the Next.js booking platform, streamlining information access and reducing report processing time by 4 hours per week.",
         "Integrated interactive Leaflet mapping into the React application, enabling users to seamlessly manage 500+ location datasets and significantly enhancing platform usability.",
         "Developed a high-efficiency C# WPF application for multilingual audio-to-text transcription, enabling automated processing of 30+ minute files across 20+ languages.",
-        "Architected a scalable, Dockerized Django and PostgreSQL application with three integrated core features, streamlining challenge management and progress tracking",
+        "Architected a scalable, Dockerized Django and PostgreSQL application with three integrated core features, streamlining challenge management and progress tracking.",
       ],
     },
     {
