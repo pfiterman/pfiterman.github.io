@@ -283,6 +283,18 @@ const resume = {
       country: "Canada",
       duration: "Jun 2026",
     },
+    {
+      id: 9,
+      degree: "Python for Data Science, AI & Development",
+      institution: "IBM",
+      institution_url: "https://www.ibm.com/ca-en",
+      certification_url:
+        "https://www.dropbox.com/scl/fi/6mwlzz8ofmnsplfy7gmon/IBM-Creddly-Python-for-Data-Science-and-AI.pdf?rlkey=378jk7jrubcyi6scdijmcf0qt&dl=0",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Jul 2026",
+    },
   ],
   experience: [
     {
@@ -446,11 +458,11 @@ const resume = {
     {
       id: 1,
       name: "AI Multilingual Audio Transcriber",
-      app_name: "wpfAppTranscribeAudio",
+      app_name: "ai-multilingual-transcriber",
       techstack: "C#, Speech SDK, Microsoft Azure Speech Recognition services",
       description:
         "A WPF C# application that transcribes .mp3 audio files into text using Microsoft Azure Speech Recognition Services.",
-      github: "https://github.com/pfiterman/wpfAppTranscribeAudio",
+      github: "https://github.com/pfiterman/ai-multilingual-transcriber",
       public: true,
       url: "",
       accomplishment:
@@ -460,11 +472,11 @@ const resume = {
     {
       id: 2,
       name: "World Wise",
-      app_name: "webAppWorldWise",
+      app_name: "worldwise",
       techstack: "React, Vite, SPA, Leaflet, React Leaflet, JSON Server",
       description:
         "A dynamic web application that enables users to explore cities around the globe. With an intuitive map interface, users can track and save their favorite city entries, discover new destinations, and curate personalized travel lists.",
-      github: "https://github.com/pfiterman/webAppWorldWise",
+      github: "https://github.com/pfiterman/worldwise",
       public: true,
       url: "https://world-wise-wp.netlify.app/",
       accomplishment:
@@ -504,13 +516,13 @@ const resume = {
     {
       id: 5,
       name: "Charenji",
-      app_name: "wdjAppCharenji",
+      app_name: "charenji",
       techstack: "Python, Django, JavaScript, Docker, PostgreSQL",
       description:
         "Personalized challenge tracker to create goals, track progress, and view achievements. Built with Django and Vanilla JS.",
-      github: "https://github.com/pfiterman/wdjAppCharenji",
+      github: "https://github.com/pfiterman/charenji",
       public: false,
-      url: "https://wdjappcharenji.onrender.com/",
+      url: "https://charenji.onrender.com/",
       accomplishment:
         "Built a Dockerized Django app with PostgreSQL, featuring a dashboard and timeline to help users track challenges.",
       duration: "May 2025",
@@ -533,12 +545,12 @@ const resume = {
     {
       id: 7,
       name: "GuardHub",
-      app_name: "webAppGuardHub",
+      app_name: "guardhub",
       techstack:
         "React + TypeScript, Node.js + Express, Vite, Tailwind CSS, Radix UI, Wouter, Axios, React Day Picker, React Leaflet, Firebase Firestore, Google OAuth 2.0, GCP ",
       description:
         "A web app for crossing guard operations, featuring PARiM schedule integration, pay cycle tracking, interactive maps, and shift management.",
-      github: "https://github.com/pfiterman/webAppGuardHub",
+      github: "https://github.com/pfiterman/guardhub",
       public: false,
       url: "https://guardhubapp.com/",
       accomplishment:
