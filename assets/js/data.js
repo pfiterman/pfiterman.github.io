@@ -10,12 +10,12 @@ const resume = {
   },
   aboutme: {
     description:
-      "Full-Stack Developer with 5+ years of experience delivering modern, high-performance applications, with additional expertise in Computer-Aided Dispatch platforms and ERP systems. Key achievements:",
+      "Full-Stack Developer with 8+ years of experience delivering modern, high-performance applications, with additional expertise in Computer-Aided Dispatch platforms and ERP systems. Key achievements:",
     achievements: [
-      "Optimized full-stack React/Next.js applications and REST API performance through advanced caching strategies reducing end-to-end response times by 10%.",
-      "Developed automated inventory alerts via SQL Server stored procedures and scheduled jobs to mitigate supply shortages, increasing stock availability to 98%.",
-      "Supported mission-critical CAD systems serving 400+ public safety users by troubleshooting workflows, maintaining seamless emergency operations.",
-      "Developed a centralized ERP portal for a federal agency to digitize mission-critical workflows, including HR, logistics, and policing, reducing manual processing by 86%.",
+      "Built interactive BI dashboards tracking 9+ KPIs, reducing admin decision-making time by 40% through real-time expense and claims analytics.",
+      "Engineered a high-efficiency C# WPF application for multilingual transcription, automating the processing of 30-minute audio files across 20+ languages with 95% accuracy.",
+      "Managed infrastructure reliability for 400+ public safety users, achieving 98.9% uptime and reducing system-related incident response delays by 15%.",
+      "Revolutionized internal operations by deploying a robust PHP-based ERP, effectively eliminating administrative bottlenecks and improving operational transparency.",
     ],
   },
   skills: {
@@ -449,7 +449,7 @@ const resume = {
         "Architected and developed a full-stack solution to replace legacy healthcare financial workflows, improving data transparency and operational efficiency across the expense and revenue lifecycle.",
         "Engineered robust middleware and RESTful APIs to automate claims approvals, enabling reliable, high-volume processing of 200+ claims monthly while significantly reducing manual processing time.",
         "Modernized a legacy monolithic Docker application into a microservices architecture; integrated GitHub Actions CI/CD to reduce deployment cycles from days to under 15 minutes.",
-        "Deployed interactive Power BI dashboards with complex DAX measures, providing real-time KPI tracking that enabled stakeholders to shift to data-driven strategies and improve operational decision-making.",
+        "Deployed interactive dashboards with complex measures, providing real-time KPI tracking that enabled stakeholders to shift to data-driven strategies and improve operational decision-making.",
         "Built a custom file upload system using Cloudflare R2 with real-time tracking, reducing transaction failure rates by 62% through proactive server-side validation.",
       ],
     },
