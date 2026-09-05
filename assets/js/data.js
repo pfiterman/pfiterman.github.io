@@ -119,19 +119,7 @@ const resume = {
     },
     {
       id: 5,
-      degree: "Certificate of Learn to Program: The Fundamentals",
-      institution: "University of Toronto",
-      institution_url: "https://defygravitycampaign.utoronto.ca/",
-      certification_url:
-        "https://www.coursera.org/account/accomplishments/certificate/AI4638TD8CAK",
-      city: "Toronto",
-      province: "Ontario",
-      country: "Canada",
-      duration: "Jun 2025 - Jun 2025",
-    },
-    {
-      id: 6,
-      degree: "Certificate of Learn to Program: Crafting Quality Code",
+      degree: "Certificate of Crafting Quality Code",
       institution: "University of Toronto",
       institution_url: "https://defygravitycampaign.utoronto.ca/",
       certification_url:
@@ -142,7 +130,7 @@ const resume = {
       duration: "Jun 2025 - Jul 2025",
     },
     {
-      id: 7,
+      id: 6,
       degree:
         "Certificate of CS50's Web Programming with  Python and JavaScript, including six projects",
       institution: "Harvard University",
@@ -155,7 +143,7 @@ const resume = {
       duration: "April 2025 - Jul 2025",
     },
     {
-      id: 8,
+      id: 7,
       degree: "Certificate of OSLT, Managing Workplace Interactions in Ontario",
       institution: "Seneca Polytechnic",
       institution_url: "https://www.senecapolytechnic.ca/",
@@ -167,7 +155,7 @@ const resume = {
       duration: "Jun 2025 - Jul 2025",
     },
     {
-      id: 9,
+      id: 8,
       degree: "Certificate of OSLT, Communicating in the Technology Sector",
       institution: "Seneca Polytechnic",
       institution_url: "https://www.senecapolytechnic.ca/",
@@ -182,84 +170,6 @@ const resume = {
   certification: [
     {
       id: 1,
-      degree: "Advanced React",
-      institution: "Meta",
-      institution_url:
-        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
-      certification_url:
-        "https://www.coursera.org/account/accomplishments/certificate/GGFL9XESAJAC",
-      city: "Toronto",
-      province: "Ontario",
-      country: "Canada",
-      duration: "Oct 2025",
-    },
-    {
-      id: 2,
-      degree: "Programming in Python",
-      institution: "Meta",
-      institution_url:
-        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
-      certification_url:
-        "https://www.coursera.org/account/accomplishments/certificate/FQPHVXOHABUL",
-      city: "Toronto",
-      province: "Ontario",
-      country: "Canada",
-      duration: "Dec 2025",
-    },
-    {
-      id: 3,
-      degree: "Programming with JavaScript",
-      institution: "Meta",
-      institution_url:
-        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
-      certification_url:
-        "https://www.coursera.org/account/accomplishments/certificate/4NMB4TJFO6SQ",
-      city: "Toronto",
-      province: "Ontario",
-      country: "Canada",
-      duration: "Jan 2026",
-    },
-    {
-      id: 4,
-      degree: "Version Control",
-      institution: "Meta",
-      institution_url:
-        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
-      certification_url:
-        "https://www.coursera.org/account/accomplishments/certificate/4IU1E18FPHEW",
-      city: "Toronto",
-      province: "Ontario",
-      country: "Canada",
-      duration: "Jan 2026",
-    },
-    {
-      id: 5,
-      degree: "Django Web Framework",
-      institution: "Meta",
-      institution_url:
-        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
-      certification_url:
-        "https://www.coursera.org/account/accomplishments/certificate/FS2PEZY40F1X",
-      city: "Toronto",
-      province: "Ontario",
-      country: "Canada",
-      duration: "May 2026",
-    },
-    {
-      id: 6,
-      degree: "APIs",
-      institution: "Meta",
-      institution_url:
-        "https://www.meta.com/about/?srsltid=AfmBOopqxUIk_ZYNosIjVEOuJt0y5JSsnob7-oB0Lni7ynozP9qAoKzU",
-      certification_url:
-        "https://www.coursera.org/account/accomplishments/certificate/IM7PF1NZ1FXR",
-      city: "Toronto",
-      province: "Ontario",
-      country: "Canada",
-      duration: "Jun 2026",
-    },
-    {
-      id: 7,
       degree: "Full Stack Developer Specialization",
       institution: "Meta",
       institution_url:
@@ -269,10 +179,10 @@ const resume = {
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
-      duration: "Jun 2026",
+      duration: "Oct 2025 - Jun 2026",
     },
     {
-      id: 8,
+      id: 2,
       degree: "Microsoft Certified: Azure AI Fundamentals",
       institution: "Microsoft",
       institution_url: "https://azure.microsoft.com/en-ca",
@@ -284,16 +194,16 @@ const resume = {
       duration: "Jun 2026",
     },
     {
-      id: 9,
-      degree: "Python for Data Science, AI & Development",
+      id: 3,
+      degree: "IBM Data Analyst Professional",
       institution: "IBM",
       institution_url: "https://www.ibm.com/ca-en",
       certification_url:
-        "https://www.dropbox.com/scl/fi/6mwlzz8ofmnsplfy7gmon/IBM-Creddly-Python-for-Data-Science-and-AI.pdf?rlkey=378jk7jrubcyi6scdijmcf0qt&dl=0",
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/3CINOUE049XB",
       city: "Toronto",
       province: "Ontario",
       country: "Canada",
-      duration: "Jul 2026",
+      duration: "Jun 2026 - Sept 2026",
     },
   ],
   experience: [
@@ -401,7 +311,7 @@ const resume = {
     },
     {
       id: 7,
-      jobTitle: "Solo Software Developer",
+      jobTitle: "Full Stack Developer",
       jobTitleComment: "",
       duration: "January 2022 — October 2024",
       company: "Freelancer",
