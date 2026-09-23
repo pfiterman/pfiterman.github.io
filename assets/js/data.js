@@ -166,6 +166,18 @@ const resume = {
       country: "Canada",
       duration: "Jul 2025 - Sept 2025",
     },
+    {
+      id: 9,
+      degree: "Certificate of Achievement, Data Analyst Program",
+      institution: "NPower Canada",
+      institution_url: "https://npowercanada.ca/",
+      certification_url:
+        "https://www.dropbox.com/scl/fi/3numoxqdx26o3o5r5u8ex/CNC-0032954-NPOWER-Data-Analyst-Certification.pdf?rlkey=t5r9605uml0mvoy8pqoun7fad&dl=0",
+      city: "Toronto",
+      province: "Ontario",
+      country: "Canada",
+      duration: "Jun 2026 - Sept 2026",
+    },
   ],
   certification: [
     {
