@@ -12,6 +12,7 @@ const resume = {
     description:
       "Full-Stack Developer with 8+ years of experience delivering modern, high-performance applications, with additional expertise in Computer-Aided Dispatch platforms and ERP systems. Key achievements:",
     achievements: [
+      "Designed a modular cloud architecture using React, Node.js, Express, and Firebase, reducing infrastructure duplication while establishing a foundation for multi-tenant SaaS growth.",
       "Built interactive BI dashboards tracking 9+ KPIs, reducing admin decision-making time by 40% through real-time expense and claims analytics.",
       "Engineered a high-efficiency C# WPF application for multilingual transcription, automating the processing of 30-minute audio files across 20+ languages with 95% accuracy.",
       "Managed infrastructure reliability for 400+ public safety users, achieving 98.9% uptime and reducing system-related incident response delays by 15%.",
